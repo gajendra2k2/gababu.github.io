@@ -78,6 +78,9 @@ module.exports = {
             filename: '[name].css' ,
             chunkFilename: '[id].css',
           }),
-        new BundleAnalyzerPlugin({generateStatsFile:true})
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'disabled',
+            generateStatsFile: true
+        })
     ]
 };
