@@ -1,0 +1,50 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#f8f9fa" stroke="#dc2626" stroke-width="2"/>
+  
+  <!-- Server/Database rectangles -->
+  <rect x="24" y="24" width="20" height="16" rx="2" fill="#dc2626"/>
+  <rect x="84" y="24" width="20" height="16" rx="2" fill="#dc2626"/>
+  <rect x="24" y="88" width="20" height="16" rx="2" fill="#dc2626"/>
+  <rect x="84" y="88" width="20" height="16" rx="2" fill="#dc2626"/>
+  <rect x="54" y="56" width="20" height="16" rx="2" fill="#dc2626"/>
+  
+  <!-- Server details (lines indicating racks) -->
+  <rect x="26" y="26" width="16" height="1" fill="white"/>
+  <rect x="26" y="29" width="12" height="1" fill="white"/>
+  <rect x="26" y="32" width="14" height="1" fill="white"/>
+  
+  <rect x="86" y="26" width="16" height="1" fill="white"/>
+  <rect x="86" y="29" width="12" height="1" fill="white"/>
+  <rect x="86" y="32" width="14" height="1" fill="white"/>
+  
+  <rect x="26" y="90" width="16" height="1" fill="white"/>
+  <rect x="26" y="93" width="12" height="1" fill="white"/>
+  <rect x="26" y="96" width="14" height="1" fill="white"/>
+  
+  <rect x="86" y="90" width="16" height="1" fill="white"/>
+  <rect x="86" y="93" width="12" height="1" fill="white"/>
+  <rect x="86" y="96" width="14" height="1" fill="white"/>
+  
+  <rect x="56" y="58" width="16" height="1" fill="white"/>
+  <rect x="56" y="61" width="12" height="1" fill="white"/>
+  <rect x="56" y="64" width="14" height="1" fill="white"/>
+  
+  <!-- Connection lines showing distributed network -->
+  <line x1="44" y1="32" x2="54" y2="64" stroke="#dc2626" stroke-width="2"/>
+  <line x1="84" y1="32" x2="74" y2="64" stroke="#dc2626" stroke-width="2"/>
+  <line x1="44" y1="96" x2="54" y2="64" stroke="#dc2626" stroke-width="2"/>
+  <line x1="84" y1="96" x2="74" y2="64" stroke="#dc2626" stroke-width="2"/>
+  
+  <!-- Cross connections for full mesh -->
+  <line x1="44" y1="32" x2="84" y2="96" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="84" y1="32" x2="44" y2="96" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3,3"/>
+  
+  <!-- Network cloud/dot pattern -->
+  <circle cx="64" cy="20" r="2" fill="#dc2626" opacity="0.6"/>
+  <circle cx="20" cy="64" r="2" fill="#dc2626" opacity="0.6"/>
+  <circle cx="108" cy="64" r="2" fill="#dc2626" opacity="0.6"/>
+  <circle cx="64" cy="108" r="2" fill="#dc2626" opacity="0.6"/>
+  <circle cx="10" cy="32" r="1.5" fill="#dc2626" opacity="0.4"/>
+  <circle cx="118" cy="96" r="1.5" fill="#dc2626" opacity="0.4"/>
+</svg>

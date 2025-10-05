@@ -14,7 +14,7 @@ const HTMLWebpackPluginConfig =   new HTMLWebpackPlugin(
 );
 /* exports */
 module.exports = {
-    entry :   { bundle : path.resolve(__dirname ,'./app/index.js') },
+    entry :   { 'index.bundle' : path.resolve(__dirname ,'./app/index.js') },
     mode : process.env.NODE_ENV || 'development',
     output:{
       filename: '[name].js',

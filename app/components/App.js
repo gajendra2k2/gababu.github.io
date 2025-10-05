@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 import './app.css';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes} from 'react-router-dom';
 
 import { ThemeContext } from '../contexts/ThemeContext';
 import { Main } from '../pages/Main'

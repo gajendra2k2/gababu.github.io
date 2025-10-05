@@ -77,6 +77,9 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 import canva from '../assets/svg/skills/canva.svg'
 
 import surgical from '../assets/svg/skills/surgical.svg'
+import dataGovernance from '../assets/svg/skills/data-governance.svg'
+import knowledgeGraph from '../assets/svg/skills/knowledge-graph.svg'
+import distributedSystems from '../assets/svg/skills/distributed-systems.svg'
 import clinical from '../assets/svg/skills/clinical.svg'
 import laproscopy from '../assets/svg/skills/laproscopy.svg'
 
@@ -239,6 +242,12 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'data governance':
+            return dataGovernance;
+        case 'knowledge graphs':
+            return knowledgeGraph;
+        case 'distributed systems':
+            return distributedSystems;
         default:
             break;
     }
