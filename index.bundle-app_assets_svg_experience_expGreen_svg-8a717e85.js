@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunkgajendra_portfolio"] = self["webpackChunkgajendra_portfolio"] || []).push([["bundle-app_assets_svg_experience_expGreen_svg-8a717e85"],{
+(self["webpackChunkgajendra_portfolio"] = self["webpackChunkgajendra_portfolio"] || []).push([["index.bundle-app_assets_svg_experience_expGreen_svg-8a717e85"],{
 
 /***/ "./app/assets/svg/experience/expGreen.svg":
 /*!************************************************!*\

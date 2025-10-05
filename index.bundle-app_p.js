@@ -201,12 +201,12 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
 /******/ 	(() => {
-/******/ 		__webpack_require__.hmrF = () => ("bundle." + __webpack_require__.h() + ".hot-update.json");
+/******/ 		__webpack_require__.hmrF = () => ("index_bundle." + __webpack_require__.h() + ".hot-update.json");
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("c2b50699d84b6c004f9e")
+/******/ 		__webpack_require__.h = () => ("c612a590bdd3735a91b3")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -808,7 +808,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = __webpack_require__.hmrS_jsonp = __webpack_require__.hmrS_jsonp || {
-/******/ 			"bundle-app_p": 0
+/******/ 			"index.bundle-app_p": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -1354,7 +1354,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_a","vendors-node_modules_j","vendors-node_modules_ma","vendors-node_modules_o","vendors-node_modules_react-dom_cjs_react-dom_development_js-61bb2bf2","vendors-node_modules_react-d","vendors-node_modules_react-helmet_es_Helmet_js-aa19325f","vendors-node_modules_react-icons_ai_index_esm_js-df716eb7","vendors-node_modules_react-icons_bs_index_esm_js-5f5dfeff","vendors-node_modules_react-icons_fa_index_esm_js-99adde74","vendors-node_modules_react-icons_fi_index_esm_js-4e0a9da0","vendors-node_modules_react-icons_hi_index_esm_js-3d157651","vendors-node_modules_react-icons_io5_index_esm_js-456d9934","vendors-node_modules_react-icons_io_index_esm_js-21d14407","vendors-node_modules_react-ic","vendors-node_modules_react-icons_md_index_esm_js-34872adc","vendors-node_modules_react-reveal_F","vendors-node_modules_react-r","vendors-node_modules_react_c","vendors-node_modules_r","bundle-app_assets_p","bundle-app_assets_svg_about_g","bundle-app_assets_svg_about_r","bundle-app_assets_svg_contacts_contactsB","bundle-app_assets_svg_ed","bundle-app_assets_svg_experience_expBlack_svg-cbdcf5b0","bundle-app_assets_svg_experience_expBlue_svg-032d6c93","bundle-app_assets_svg_experience_expGreen_svg-8a717e85","bundle-app_assets_svg_experience_expOrange_svg-0d5dadd9","bundle-app_assets_svg_experience_expPink_svg-d3229915","bundle-app_assets_svg_experience_expPurple_svg-ad916cd3","bundle-app_assets_svg_experience_expRed_svg-286488a4","bundle-app_assets_svg_experience_expYellow_svg-823901fc","bundle-app_assets_svg_projects_e","bundle-app_assets_svg_projects_four_svg-17cd86bf","bundle-app_assets_svg_projects_s","bundle-app_assets_svg_projects_three_svg-c2dea448","bundle-app_assets_svg_skills_a","bundle-app_assets_svg_testimonials_b","bundle-app_c"], () => (__webpack_require__("./app/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_a","vendors-node_modules_j","vendors-node_modules_ma","vendors-node_modules_o","vendors-node_modules_react-dom_cjs_react-dom_development_js-61bb2bf2","vendors-node_modules_react-d","vendors-node_modules_react-helmet_es_Helmet_js-aa19325f","vendors-node_modules_react-icons_ai_index_esm_js-df716eb7","vendors-node_modules_react-icons_bs_index_esm_js-5f5dfeff","vendors-node_modules_react-icons_fa_index_esm_js-99adde74","vendors-node_modules_react-icons_fi_index_esm_js-4e0a9da0","vendors-node_modules_react-icons_hi_index_esm_js-3d157651","vendors-node_modules_react-icons_io5_index_esm_js-456d9934","vendors-node_modules_react-icons_io_index_esm_js-21d14407","vendors-node_modules_react-ic","vendors-node_modules_react-icons_md_index_esm_js-34872adc","vendors-node_modules_react-reveal_F","vendors-node_modules_react-r","vendors-node_modules_react_c","vendors-node_modules_r","index.bundle-app_assets_p","index.bundle-app_assets_svg_about_g","index.bundle-app_assets_svg_about_r","index.bundle-app_assets_svg_contacts_contactsB","index.bundle-app_assets_svg_ed","index.bundle-app_assets_svg_experience_expBlack_svg-cbdcf5b0","index.bundle-app_assets_svg_experience_expBlue_svg-032d6c93","index.bundle-app_assets_svg_experience_expGreen_svg-8a717e85","index.bundle-app_assets_svg_experience_expOrange_svg-0d5dadd9","index.bundle-app_assets_svg_experience_expPink_svg-d3229915","index.bundle-app_assets_svg_experience_expPurple_svg-ad916cd3","index.bundle-app_assets_svg_experience_expRed_svg-286488a4","index.bundle-app_assets_svg_experience_expYellow_svg-823901fc","index.bundle-app_assets_svg_projects_e","index.bundle-app_assets_svg_projects_four_svg-17cd86bf","index.bundle-app_assets_svg_projects_s","index.bundle-app_assets_svg_projects_three_svg-c2dea448","index.bundle-app_assets_svg_skills_a","index.bundle-app_assets_svg_testimonials_b","index.bundle-app_c"], () => (__webpack_require__("./app/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
