@@ -1,0 +1,52 @@
+"use strict";
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunkgajendra_portfolio"] = self["webpackChunkgajendra_portfolio"] || []).push([["app_components_Books_Books_js"],{
+
+/***/ "./app/components/Books/BookCard.js":
+/*!******************************************!*\
+  !*** ./app/components/Books/BookCard.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/styles */ \"./node_modules/@material-ui/core/esm/styles/makeStyles.js\");\n/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-reveal/Fade */ \"./node_modules/react-reveal/Fade.js\");\n/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _contexts_ThemeContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../contexts/ThemeContext */ \"./app/contexts/ThemeContext.js\");\n/* harmony import */ var _assets_svg_books_bookImgWhite_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/svg/books/bookImgWhite.svg */ \"./app/assets/svg/books/bookImgWhite.svg\");\n/* harmony import */ var _assets_svg_books_bookImgWhite_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_svg_books_bookImgWhite_svg__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _assets_svg_books_bookImgBlack_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/svg/books/bookImgBlack.svg */ \"./app/assets/svg/books/bookImgBlack.svg\");\n/* harmony import */ var _assets_svg_books_bookImgBlack_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_svg_books_bookImgBlack_svg__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _Books_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Books.css */ \"./app/components/Books/Books.css\");\n\n\n\n\n\n\n\nfunction BookCard(_ref) {\n  var id = _ref.id,\n    title = _ref.title,\n    subtitle = _ref.subtitle,\n    link = _ref.link,\n    image = _ref.image;\n  var _useContext = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_contexts_ThemeContext__WEBPACK_IMPORTED_MODULE_3__.ThemeContext),\n    theme = _useContext.theme;\n  var useStyles = (0,_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(function (t) {\n    return {\n      bookCard: {\n        backgroundColor: theme.primary30,\n        \"&:hover\": {\n          backgroundColor: theme.primary50,\n          transform: 'scale(1.02)',\n          transition: 'all 0.3s ease',\n          cursor: 'pointer'\n        }\n      }\n    };\n  });\n  var classes = useStyles();\n  var handleClick = function handleClick() {\n    window.open(link, '_blank', 'noopener,noreferrer');\n  };\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement((react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default()), {\n    bottom: true\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    key: id,\n    className: \"book-card \".concat(classes.bookCard),\n    onClick: handleClick\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"bookcard-img\",\n    style: {\n      backgroundColor: theme.primary\n    }\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: image || (theme.type === 'light' ? (_assets_svg_books_bookImgBlack_svg__WEBPACK_IMPORTED_MODULE_5___default()) : (_assets_svg_books_bookImgWhite_svg__WEBPACK_IMPORTED_MODULE_4___default())),\n    alt: \"Book\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"book-details\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h4\", {\n    style: {\n      color: theme.tertiary\n    }\n  }, title), subtitle && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h5\", {\n    style: {\n      color: theme.tertiary80\n    }\n  }, subtitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", {\n    style: {\n      color: theme.primary,\n      marginTop: '10px',\n      fontSize: '0.9em'\n    }\n  }, \"Click to view \\u2192\"))));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BookCard);\n\n//# sourceURL=webpack://gajendra-portfolio/./app/components/Books/BookCard.js?\n}");
+
+/***/ }),
+
+/***/ "./app/components/Books/Books.css":
+/*!****************************************!*\
+  !*** ./app/components/Books/Books.css ***!
+  \****************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1759714188707\n      var cssReload = __webpack_require__(/*! ../../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://gajendra-portfolio/./app/components/Books/Books.css?\n}");
+
+/***/ }),
+
+/***/ "./app/components/Books/Books.js":
+/*!***************************************!*\
+  !*** ./app/components/Books/Books.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _contexts_ThemeContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../contexts/ThemeContext */ \"./app/contexts/ThemeContext.js\");\n/* harmony import */ var _Books_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Books.css */ \"./app/components/Books/Books.css\");\n/* harmony import */ var _BookCard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BookCard */ \"./app/components/Books/BookCard.js\");\n/* harmony import */ var _data_booksData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../data/booksData */ \"./app/data/booksData.js\");\n\n\n\n\n\nfunction Books() {\n  var _useContext = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_contexts_ThemeContext__WEBPACK_IMPORTED_MODULE_1__.ThemeContext),\n    theme = _useContext.theme;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"books\",\n    id: \"books\",\n    style: {\n      backgroundColor: theme.secondary\n    }\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"books-body\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"books-description\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", {\n    style: {\n      color: theme.primary\n    }\n  }, \"Books\"), _data_booksData__WEBPACK_IMPORTED_MODULE_4__.booksData.map(function (book) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_BookCard__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n      key: book.id,\n      id: book.id,\n      title: book.title,\n      subtitle: book.subtitle,\n      link: book.link,\n      image: book.image\n    });\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"books-image\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: theme.bookimg,\n    alt: \"\"\n  }))));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Books);\n\n//# sourceURL=webpack://gajendra-portfolio/./app/components/Books/Books.js?\n}");
+
+/***/ }),
+
+/***/ "./app/data/booksData.js":
+/*!*******************************!*\
+  !*** ./app/data/booksData.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   booksData: () => (/* binding */ booksData)\n/* harmony export */ });\nvar booksData = [{\n  id: 1,\n  title: 'Is Data Governance Worth It?',\n  subtitle: 'A Leadership Perspective',\n  link: 'https://www.amazon.com/Data-Governance-Worth-Leadership-Perspective/dp/B0DQV9T9YB',\n  image: '/assets/books/Book1-frontcover.jpg'\n}, {\n  id: 2,\n  title: 'Anti-Patterns for NOSQL Databases',\n  subtitle: 'Common Challenges and Solutions to Avoid Them',\n  link: 'https://www.shroffpublishers.com/books/9789355426383',\n  image: '/assets/books/book2-frontcover.jpg.jpg'\n}];\n\n//# sourceURL=webpack://gajendra-portfolio/./app/data/booksData.js?\n}");
+
+/***/ })
+
+}]);
