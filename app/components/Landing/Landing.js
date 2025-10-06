@@ -88,7 +88,7 @@ function Landing() {
                                 />
                             </a>
                           )*/}
-                        {socialsData.github && (
+                        {/*socialsData.github && (
                             <a
                                 href={socialsData.github}
                                 target='_blank'
@@ -100,7 +100,7 @@ function Landing() {
                                     aria-label='GitHub'
                                 />
                             </a>
-                        )}
+                        )*/}
                        {/*socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}

@@ -1,0 +1,153 @@
+.books {
+    padding: 50px 0;
+    position: relative;
+}
+
+.books-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 10vw;
+}
+
+.books-description {
+    flex: 1;
+    max-width: 600px;
+}
+
+.books-image {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.books-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.book-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0 20px 0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card:first-child {
+    margin-top: 40px;
+}
+
+.book-card:first-child .bookcard-img {
+    padding: 12px;
+}
+
+
+.bookcard-img {
+    width: 80px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bookcard-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-details {
+    flex: 1;
+}
+
+.book-details h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.book-details h5 {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.book-details p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .books-body {
+        flex-direction: column;
+        margin: 0 5vw;
+    }
+
+    .books-description,
+    .books-image {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .books-image {
+        order: -1;
+    }
+
+    .book-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        margin: 25px 0 15px 0;
+    }
+
+    .book-card:first-child {
+        margin-top: 35px;
+    }
+
+    .bookcard-img {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 70px;
+        height: 90px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .books {
+        padding: 30px 0;
+    }
+
+    .books-body {
+        margin: 0 3vw;
+    }
+
+    .book-card {
+        padding: 12px;
+        margin: 15px 0;
+    }
+
+    .book-details h4 {
+        font-size: 1.1em;
+    }
+
+    .book-details h5 {
+        font-size: 0.95em;
+    }
+}

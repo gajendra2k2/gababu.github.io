@@ -323,7 +323,7 @@ function Contacts() {
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
                             )} */}
-                            {socialsData.github && (
+                            {/*socialsData.github && (
                                 <a
                                     href={socialsData.github}
                                     target='_blank'
@@ -332,7 +332,7 @@ function Contacts() {
                                 >
                                     <FaGithub aria-label='GitHub' />
                                 </a>
-                            )}
+                            )*/}
                             {socialsData.linkedIn && (
                                 <a
                                     href={socialsData.linkedIn}
@@ -353,7 +353,7 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}
-                            {/*socialsData.medium && (
+                            {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,7 +362,7 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )*/}
+                            )}
                             {/*
                             {socialsData.blogger && (
                                 <a

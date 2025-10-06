@@ -5,6 +5,7 @@ import { Navbar, Landing } from '../components';
 const About = React.lazy(() => import('../components/About/About'));
 const Skills = React.lazy(() => import('../components/Skills/Skills'));
 const Education = React.lazy(() => import('../components/Education/Education'));
+const Books = React.lazy(() => import('../components/Books/Books'));
 const Contacts = React.lazy(() => import('../components/Contacts/Contacts'));
 const Experience = React.lazy(() => import('../components/Experience/Experience'));
 import {headerData} from '../data/headerData'
@@ -26,7 +27,10 @@ export const Main = () => {
             <Experience />
             </Suspense>
             <Suspense fallback={<div>Loading...</div>}>
-            <Education />            
+            <Education />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+            <Books />
             </Suspense>
             {/* <Blog /> */}
             <Suspense fallback={<div>Loading...</div>}>

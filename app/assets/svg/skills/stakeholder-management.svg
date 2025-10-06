@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H256V256H0V0Z" fill="#DAA520"/>
+<circle cx="80" cy="80" r="20" fill="white"/>
+<circle cx="176" cy="80" r="20" fill="white"/>
+<path d="M60 120C60 108 68 96 80 96C92 96 100 108 100 120V128H60V120Z" fill="white"/>
+<path d="M156 120C156 108 164 96 176 96C188 96 196 108 196 120V128H156V120Z" fill="white"/>
+<path d="M112 144H144V256H112V144Z" fill="white"/>
+<path d="M128 168L136 184L144 168V200H128V168Z" fill="#DAA520"/>
+<path d="M48 208H208V224H48V208Z" fill="white"/>
+<path d="M96 224H160V232H96V224Z" fill="#DAA520"/>
+<path d="M64 200H192V208H64V200Z" fill="#DAA520"/>
+</svg>

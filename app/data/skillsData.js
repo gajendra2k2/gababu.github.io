@@ -1,4 +1,12 @@
-export const skillsData = [
+export const leadershipImpactSkills = [
+  "Mentorship",
+  "Team Management",
+  "Cross-Functional Collaboration",
+  "Strategic Thinking",
+  "Stakeholder Management"
+];
+
+export const technologyLeadershipSkills = [
   "Java",
   "Python",
   "C#",
@@ -15,13 +23,11 @@ export const skillsData = [
   "Knowledge Graphs",
   "Distributed Systems",
   "Streaming Systems",
-  "Big Data Architecture",
-  "Mentorship",
-  "Team Management",
-  "Cross-Functional Collaboration",
-  "Strategic Thinking",
-  "Stakeholder Management"
+  "Big Data Architecture"
 ];
+
+// Legacy export for backward compatibility
+export const skillsData = [...leadershipImpactSkills, ...technologyLeadershipSkills];
 
 
 

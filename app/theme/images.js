@@ -42,11 +42,17 @@ import contactsPurple from '../assets/svg/contacts/contactsPurple.svg'
 import contactsRed from '../assets/svg/contacts/contactsRed.svg'
 import contactsYellow from '../assets/svg/contacts/contactsYellow.svg'
 
+import bookBlack from '../assets/svg/books/bookImgBlack.svg'
+import bookWhite from '../assets/svg/books/bookImgWhite.svg'
 
-export { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
+import book1Front from '../assets/books/Book1-frontcover.jpg'
+import book2Front from '../assets/books/book2-frontcover.jpg.jpg'
+
+export {
+    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy,
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl,
     yellowThemeboy,yellowThemegirl,eduBlue,eduBlack,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expBlue,expBlack,expGreen,expOrange,expPink,expPurple,expRed,expYellow,contactsBlue,contactsBlack,
-    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow
+    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,bookBlack,bookWhite,
+    book1Front, book2Front
 }

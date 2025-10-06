@@ -7,7 +7,7 @@ export const socialsData = {
     twitter: '',
     reddit: '',
     blogger: '',
-    medium: '',
+    medium: 'https://medium.com/@gajendra2k2',
     stackOverflow: '',
     gitlab: '',
     youtube: ''

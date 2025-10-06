@@ -83,8 +83,26 @@ import distributedSystems from '../assets/svg/skills/distributed-systems.svg'
 import clinical from '../assets/svg/skills/clinical.svg'
 import laproscopy from '../assets/svg/skills/laproscopy.svg'
 
+import scala from '../assets/svg/skills/scala.svg'
+import kubernetes from '../assets/svg/skills/kubernetes.svg'
+import apacheFlink from '../assets/svg/skills/apache-flink.svg'
+import apacheKafka from '../assets/svg/skills/apache-kafka.svg'
+import cassandra from '../assets/svg/skills/cassandra.svg'
+import streamingSystems from '../assets/svg/skills/streaming-systems.svg'
+import bigDataArchitecture from '../assets/svg/skills/big-data-architecture.svg'
+import mentorship from '../assets/svg/skills/mentorship.svg'
+import teamManagement from '../assets/svg/skills/team-management.svg'
+import crossFunctionalCollaboration from '../assets/svg/skills/cross-functional-collaboration.svg'
+import strategicThinking from '../assets/svg/skills/strategic-thinking.svg'
+import stakeholderManagement from '../assets/svg/skills/stakeholder-management.svg'
+
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
+    if (!skillID) {
+        console.warn('Empty skill provided');
+        return null;
+    }
+
     switch (skillID) {
         case 'c sections':
             return surgical;
@@ -248,7 +266,32 @@ export const skillsImage = (skill) => {
             return knowledgeGraph;
         case 'distributed systems':
             return distributedSystems;
+        case 'scala':
+            return scala;
+        case 'kubernetes':
+            return kubernetes;
+        case 'apache flink':
+            return apacheFlink;
+        case 'apache kafka':
+            return apacheKafka;
+        case 'cassandra':
+            return cassandra;
+        case 'streaming systems':
+            return streamingSystems;
+        case 'big data architecture':
+            return bigDataArchitecture;
+        case 'mentorship':
+            return mentorship;
+        case 'team management':
+            return teamManagement;
+        case 'cross-functional collaboration':
+            return crossFunctionalCollaboration;
+        case 'strategic thinking':
+            return strategicThinking;
+        case 'stakeholder management':
+            return stakeholderManagement;
         default:
+            console.warn('Missing image for skill:', skillID);
             break;
     }
 }

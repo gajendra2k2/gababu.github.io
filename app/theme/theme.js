@@ -1,10 +1,10 @@
 /* eslint-disable */
-import { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
+import {
+    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy,
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    contactsRed,contactsYellow,bookBlack,bookWhite
 } from './images'
 
 
@@ -27,7 +27,8 @@ export const greenThemeLight = {
     aboutimg2: greenThemegirl,
     eduimg: eduGreen,
     expimg: expGreen,
-    contactsimg: contactsGreen
+    contactsimg: contactsGreen,
+    bookimg: bookBlack
 }
 
 export const greenThemeDark = {
@@ -49,7 +50,8 @@ export const greenThemeDark = {
     aboutimg2: greenThemegirl,
     eduimg: eduGreen,
     expimg: expGreen,
-    contactsimg: contactsGreen
+    contactsimg: contactsGreen,
+    bookimg: bookBlack
 }
 export const bwThemeLight = {
     type: 'light',
@@ -91,7 +93,8 @@ export const bwThemeDark = {
     aboutimg2: bwThemegirl,
     eduimg: eduBlack,
     expimg: expBlack,
-    contactsimg: contactsBlack
+    contactsimg: contactsBlack,
+    bookimg: bookBlack
 }
 
 export const blueThemeLight = {
@@ -134,7 +137,8 @@ export const blueThemeDark = {
     aboutimg2: blueThemegirl,
     eduimg: eduBlue,
     expimg: expBlue,
-    contactsimg: contactsBlue
+    contactsimg: contactsBlue,
+    bookimg: bookBlack
 }
 
 export const redThemeLight = {
@@ -177,7 +181,8 @@ export const redThemeDark = {
     aboutimg2: redThemegirl,
     eduimg: eduRed,
     expimg: expRed,
-    contactsimg: contactsRed
+    contactsimg: contactsRed,
+    bookimg: bookBlack
 }
 
 export const orangeThemeLight = {
@@ -199,7 +204,8 @@ export const orangeThemeLight = {
     aboutimg2: orangeThemegirl,
     eduimg: eduOrange,
     expimg: expOrange,
-    contactsimg: contactsOrange
+    contactsimg: contactsOrange,
+    bookimg: bookBlack
 }
 export const orangeThemeDark = {
     type: 'dark',
@@ -242,7 +248,8 @@ export const purpleThemeLight = {
     aboutimg2: purpleThemegirl,
     eduimg: eduPurple,
     expimg: expPurple,
-    contactsimg: contactsPurple
+    contactsimg: contactsPurple,
+    bookimg: bookBlack
 }
 export const purpleThemeDark = {
     type: 'dark',
@@ -285,7 +292,8 @@ export const pinkThemeLight = {
     aboutimg2: pinkThemegirl,
     eduimg: eduPink,
     expimg: expPink,
-    contactsimg: contactsPink
+    contactsimg: contactsPink,
+    bookimg: bookBlack
 }
 export const pinkThemeDark = {
     type: 'dark',
@@ -328,7 +336,8 @@ export const yellowThemeLight = {
     aboutimg2: yellowThemegirl,
     eduimg: eduYellow,
     expimg: expYellow,
-    contactsimg: contactsYellow
+    contactsimg: contactsYellow,
+    bookimg: bookBlack
 }
 
 export const yellowThemeDark = {
