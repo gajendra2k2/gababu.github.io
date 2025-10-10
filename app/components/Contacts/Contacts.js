@@ -5,18 +5,19 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
-    FaLinkedinIn,
-    FaGithub,
-    FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
-    FaInstagram,
-    FaGitlab,
-    FaMediumM,
-} from 'react-icons/fa';
+     FaTwitter,
+     FaLinkedinIn,
+     FaGithub,
+     FaYoutube,
+     FaBloggerB,
+     FaRedditAlien,
+     FaStackOverflow,
+     FaCodepen,
+     FaInstagram,
+     FaGitlab,
+     FaMediumM,
+     FaAmazon,
+ } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
@@ -334,14 +335,19 @@ function Contacts() {
                                 </a>
                             )*/}
                             {socialsData.linkedIn && (
-                                <a
-                                    href={socialsData.linkedIn}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaLinkedinIn aria-label='LinkedIn' />
-                                </a>
+                                <div className='linkedin-badge-container'>
+                                    <div className='custom-linkedin-badge'>
+                                        <FaLinkedinIn className='linkedin-icon' />
+                                        <a
+                                            href={socialsData.linkedIn}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='linkedin-link'
+                                        >
+                                            LinkedIn Profile
+                                        </a>
+                                    </div>
+                                </div>
                             )}
                             {socialsData.instagram && (
                                 <a
@@ -354,14 +360,34 @@ function Contacts() {
                                 </a>
                             )}
                             {socialsData.medium && (
-                                <a
-                                    href={socialsData.medium}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaMediumM aria-label='Medium' />
-                                </a>
+                                <div className='medium-badge-container'>
+                                    <div className='custom-medium-badge'>
+                                        <FaMediumM className='medium-icon' />
+                                        <a
+                                            href={socialsData.medium}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='medium-link'
+                                        >
+                                            Medium Articles
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                            {socialsData.amazonAuthor && (
+                                <div className='amazon-badge-container'>
+                                    <div className='custom-amazon-badge'>
+                                        <FaAmazon className='amazon-icon' />
+                                        <a
+                                            href={socialsData.amazonAuthor}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='amazon-link'
+                                        >
+                                            Amazon Author
+                                        </a>
+                                    </div>
+                                </div>
                             )}
                             {/*
                             {socialsData.blogger && (

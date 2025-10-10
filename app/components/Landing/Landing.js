@@ -9,12 +9,15 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
-    FaLinkedin,
-    FaGithub,
-    FaYoutube,
-    FaBlogger,
-} from 'react-icons/fa';
+     FaTwitter,
+     FaLinkedin,
+     FaGithub,
+     FaYoutube,
+     FaBlogger,
+     FaLinkedinIn,
+     FaMediumM,
+     FaAmazon,
+ } from 'react-icons/fa';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -164,6 +167,56 @@ function Landing() {
                         </TypeWriter>
                         {/*<h6>{headerData.title}</h6>*/}
                         <h1>{headerData.name}</h1>
+
+                        {/* Social Media Badges in Header */}
+                        <div className='landing-social-badges'>
+                            {socialsData.linkedIn && (
+                                <div className='landing-linkedin-badge'>
+                                    <div className='custom-linkedin-badge'>
+                                        <FaLinkedinIn className='linkedin-icon' />
+                                        <a
+                                            href={socialsData.linkedIn}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='linkedin-link'
+                                        >
+                                            LinkedIn Profile
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                            {socialsData.medium && (
+                                <div className='landing-medium-badge'>
+                                    <div className='custom-medium-badge'>
+                                        <FaMediumM className='medium-icon' />
+                                        <a
+                                            href={socialsData.medium}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='medium-link'
+                                        >
+                                            Medium Articles
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                            {socialsData.amazonAuthor && (
+                                <div className='landing-amazon-badge'>
+                                    <div className='custom-amazon-badge'>
+                                        <FaAmazon className='amazon-icon' />
+                                        <a
+                                            href={socialsData.amazonAuthor}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='amazon-link'
+                                        >
+                                            Amazon Author
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+
                         <ul><li>{summary}</li></ul>
 
                         <div className='lcr-buttonContainer'>
