@@ -35,7 +35,7 @@
   }
   
   .lcl--content {
-    margin: 3rem;
+    margin: 2rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@
   
   .lcr--content {
     width: 55%;
-    margin-right: 7rem;
+    margin-right: 4rem;
     font-family: var(--primaryFont);
     font-style: normal;
   }
@@ -96,7 +96,7 @@
   }
   
   .lcr-buttonContainer {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     width: 350px;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 1.5rem 0 2rem 1.2vw;
+    margin: 1rem 0 1.5rem 1.2vw;
     justify-content: flex-start;
     align-items: center;
   }
@@ -149,7 +149,7 @@
       --img-size: 350px;
     }
     .lcl--content {
-      margin: 2rem;
+      margin: 1.5rem;
     }
   
     .lcr--content h6 {
@@ -210,8 +210,8 @@
     }
     .lcr--content {
       width: 60%;
-      margin-top: 55%;
-      margin-right: 6%;
+      margin-top: 45%;
+      margin-right: 4%;
     }
   
     .lcr-buttonContainer {
@@ -266,6 +266,7 @@
       margin-top: 0;
       margin-right: initial;
       width: 100%;
+      padding: 0.5rem;
     }
     .lcr--content h6 {
       font-size: 1rem;
@@ -293,8 +294,8 @@
 
     .landing-social-badges {
       justify-content: center;
-      margin: 1rem auto 1.5rem;
-      gap: 0.6rem;
+      margin: 0.75rem auto 1rem;
+      gap: 0.5rem;
     }
 
     .landing-linkedin-badge .custom-linkedin-badge,
