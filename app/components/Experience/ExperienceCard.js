@@ -23,7 +23,7 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear,resps}) {
     }));
 
     const classes = useStyles();
-    const respsData = resps.map(resp=><li>{resp}</li>)
+    const respsData = resps.map((resp, index)=><li key={index}>{resp}</li>)
 
     return (
         <Fade bottom>

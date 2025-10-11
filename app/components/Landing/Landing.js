@@ -69,7 +69,7 @@ function Landing() {
     }));
 
     const classes = useStyles();
-    const summary = headerData.description.map(item=><li>{item}</li>)
+    const summary = headerData.description.map((item, index)=><li key={index}>{item}</li>)
     return (
         <div className='landing'>
             <div className='landing--container'>
@@ -217,7 +217,7 @@ function Landing() {
                             )}
                         </div>
 
-                        <ul><li>{summary}</li></ul>
+                        <ul>{summary}</ul>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
