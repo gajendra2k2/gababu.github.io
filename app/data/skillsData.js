@@ -12,7 +12,6 @@ export const technologyLeadershipSkills = [
   "C#",
   "Scala",
   "JavaScript",
-  "TypeScript",
   "Docker",
   "Kubernetes",
   "Apache Flink",

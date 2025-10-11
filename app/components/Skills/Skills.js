@@ -16,7 +16,7 @@ function Skills() {
         boxShadow: `0px 0px 30px ${theme.primary30}`
     }
 
-    const renderSkillSection = (skills, title) => (
+    const renderScrollingSkillSection = (skills, title) => (
         <div className="skillsSection">
             <div className="skillsSectionHeader">
                 <h3 style={{color: theme.primary}}>{title}</h3>
@@ -44,11 +44,31 @@ function Skills() {
         </div>
     );
 
+    const renderStaticSkillSection = (skills, title) => (
+        <div className="skillsSection">
+            <div className="skillsSectionHeader">
+                <h3 style={{color: theme.primary}}>{title}</h3>
+            </div>
+            <div className="skill--static">
+                <div className="skill--static-container">
+                    {skills.map((skill, id) => (
+                        <div className="skill--box" key={id} style={skillBoxStyle}>
+                            <img src={skillsImage(skill)} alt={skill} />
+                            <h4 style={{color: theme.tertiary}}>
+                                {skill}
+                            </h4>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+
     return (
         <div id="skills" className="skills" style={{backgroundColor: theme.secondary}}>
             <div className="skillsContainer">
                 <div className="skillsSectionWrapper">
-                    {renderSkillSection(leadershipImpactSkills, "Leadership")}
+                    {renderStaticSkillSection(leadershipImpactSkills, "Leadership")}
                     <div className="line-styling">
                       <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
                       <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
@@ -56,7 +76,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="skillsSectionWrapper">
-                    {renderSkillSection(technologyLeadershipSkills, "Technology")}
+                    {renderScrollingSkillSection(technologyLeadershipSkills, "Technology")}
                     <div className="line-styling">
                       <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
                       <div className="style-circle" style={{backgroundColor: theme.primary}}></div>

@@ -86,9 +86,6 @@ export const Main = () => {
             <About />
             </Suspense>
             <Suspense fallback={<div>Loading...</div>}>
-            <Skills />
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
             <Experience />
             </Suspense>
             <Suspense fallback={<div>Loading...</div>}>
@@ -96,6 +93,9 @@ export const Main = () => {
             </Suspense>
             <Suspense fallback={<div>Loading...</div>}>
             <Books />
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
+            <Skills />
             </Suspense>
             {/* <Blog /> */}
             <Suspense fallback={<div>Loading...</div>}>
