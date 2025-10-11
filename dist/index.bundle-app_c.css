@@ -463,38 +463,43 @@ img {
   }
 }
 @media (max-width: 600px) {
+  .landing {
+    height: auto;
+    min-height: 80vh;
+  }
   .landing--container {
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
   }
   .landing--img {
-    --img-size: 200px;
+    --img-size: 180px;
     left: 50%;
-    top: 30%;
-    border: 8px solid #eaeaea;
+    top: 25%;
+    border: 6px solid #eaeaea;
     transform: translate(-50%, -50%);
   }
   .landing--container-left {
     flex: initial;
     width: 100%;
-    height: 30%;
+    height: 25%;
   }
   .landing--social {
     display: none;
   }
   .landing--container-right {
     box-sizing: border-box;
-    padding: 0 2rem;
+    padding: 1rem;
     flex: initial;
-    height: 70%;
+    height: 75%;
     width: 100%;
     background-color: #eaeaea;
-    align-items: center;
-    justify-content: center;
-    padding: 0 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 2rem;
   }
   .lcr--content {
-    margin-top: 55%;
+    margin-top: 0;
     margin-right: initial;
     width: 100%;
   }
@@ -544,19 +549,28 @@ img {
   }
 }
 @media (max-width: 500px) {
+  .landing {
+    min-height: 70vh;
+  }
   .lcr--content {
-    margin-top: 75%;
+    margin-top: 0;
   }
 }
 /*Safari*/
 @media (max-width: 410px) {
+  .landing {
+    min-height: 65vh;
+  }
   .lcr--content {
-    margin-top: 100%;
+    margin-top: 0;
   }
 }
 @media (max-width: 376px) {
+  .landing {
+    min-height: 60vh;
+  }
   .lcr--content {
-    margin-top: 145%;
+    margin-top: 0;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
@@ -655,11 +669,14 @@ img {
   }
 }
 @media screen and (max-width: 992px) {
+  .about {
+    min-height: 50vh;
+  }
   .about .line-styling {
     top: 20px;
   }
   .about-body {
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -668,18 +685,17 @@ img {
   .about-description {
     flex: 0.6;
     box-sizing: border-box;
-    /* padding: 5% 10%; */
-    padding: 20px;
+    padding: 15px;
   }
   .about-description > h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
   }
   .about-description > p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .about-img > img {
-    width: 250px;
+    width: 220px;
     flex: 0.4;
   }
 }
@@ -694,24 +710,34 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
+  .about {
+    min-height: 40vh;
+  }
+  .about-body {
+    padding-top: 0.5rem;
+  }
   .about .line-styling .style-circle {
     width: 5px;
     height: 5px;
     border-radius: 50%;
   }
   .about .line-styling .style-line {
-    width: 93%;
+    width: 90%;
     height: 3px;
     border-radius: 10px;
   }
+  .about-description {
+    padding: 10px;
+  }
   .about-description > h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
   }
   .about-description > p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   .about-img > img {
-    width: 200px;
+    width: 180px;
   }
 }
 /*!***************************************************************************************************************************!*\
@@ -840,20 +866,20 @@ img {
 }
 @media screen and (max-width: 992px) {
   .skills {
-    padding: 1rem;
+    padding: 0.5rem;
     min-height: 100%;
   }
   .skillsContainer {
-    padding: 1rem;
-    margin: 1rem 0;
-    gap: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    gap: 1.5rem;
   }
   .skillsHeader h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
   .skillsSectionHeader h3 {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .skill--box {
     width: 150px;
@@ -890,25 +916,34 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
+  .skills {
+    padding: 0.25rem;
+    min-height: 100%;
+  }
+  .skillsContainer {
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    gap: 1rem;
+  }
   .skill--box {
-    width: 135px;
-    height: 135px;
-    margin: 1.2rem;
-    padding: 2rem 1rem;
+    width: 120px;
+    height: 120px;
+    margin: 0.8rem;
+    padding: 1rem 0.5rem;
   }
   .skill--box > img {
-    height: 40px;
+    height: 35px;
   }
   .skillsHeader h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .skillsSectionHeader h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
   }
   .skill--box h4 {
-    font-size: 16px;
-    margin-top: 1rem;
+    font-size: 14px;
+    margin-top: 0.5rem;
   }
 }
 @media only screen and (device-width: 768px) {
@@ -1495,7 +1530,7 @@ img {
 
 @media screen and (max-width: 992px) {
   .education {
-    min-height: 100%;
+    min-height: 50vh;
   }
   .education-image {
     display: none;
@@ -1503,14 +1538,15 @@ img {
   .education-description {
     flex: 1;
     margin: auto;
+    padding: 1rem;
   }
   .education-description > h1 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
   .education-card {
     width: 100%;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1549,8 +1585,14 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
+  .education {
+    min-height: 100%;
+  }
+  .education-description {
+    padding: 0.5rem;
+  }
   .education-description > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 @media only screen and (device-width: 768px) {
@@ -1706,7 +1748,7 @@ img {
 
 @media screen and (max-width: 992px) {
   .experience {
-    min-height: 100%;
+    min-height: 50vh;
   }
   .experience-image {
     display: none;
@@ -1714,14 +1756,15 @@ img {
   .experience-description {
     flex: 1;
     margin: auto;
+    padding: 1rem;
   }
   .experience-description > h1 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
   .experience-card {
     width: 100%;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1760,8 +1803,14 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
+  .experience {
+    min-height: 100%;
+  }
+  .experience-description {
+    padding: 0.5rem;
+  }
   .experience-description > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 @media only screen and (device-width: 768px) {

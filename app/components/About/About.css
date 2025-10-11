@@ -85,12 +85,16 @@
 
 @media screen and (max-width: 992px){
 
+  .about {
+    min-height: 50vh;
+  }
+
   .about .line-styling{
     top: 20px;
   }
 
     .about-body {
-        padding-top: 2rem;
+        padding-top: 1rem;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -100,22 +104,20 @@
     .about-description{
         flex: 0.6;
         box-sizing: border-box;
-        /* padding: 5% 10%; */
-        padding: 20px;
-
+        padding: 15px;
     }
 
     .about-description > h2 {
-        font-size: 3rem;
-        margin-bottom: 20px;
+        font-size: 2.5rem;
+        margin-bottom: 15px;
     }
 
     .about-description > p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .about-img > img {
-        width: 250px;
+        width: 220px;
         flex: 0.4;
     }
 
@@ -135,26 +137,39 @@
 
 @media screen and (max-width: 600px){
 
+  .about {
+    min-height: 40vh;
+  }
+
+  .about-body {
+    padding-top: 0.5rem;
+  }
+
   .about .line-styling .style-circle{
     width: 5px;
     height: 5px;
     border-radius: 50%;
   }
   .about .line-styling .style-line{
-    width: 93%;
+    width: 90%;
     height: 3px;
     border-radius: 10px;
   }
 
+  .about-description {
+    padding: 10px;
+  }
+
   .about-description > h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
   }
 
     .about-description > p{
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }
 
     .about-img > img {
-        width: 200px;
+        width: 180px;
     }
 }

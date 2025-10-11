@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 992px) {
     .education {
-        min-height: 100%;
+        min-height: 50vh;
     }
     .education-image {
         display: none;
@@ -107,14 +107,15 @@
     .education-description {
         flex: 1;
         margin: auto;
-    }    
+        padding: 1rem;
+    }
     .education-description > h1{
-        font-size: 3.2rem;
+        font-size: 2.8rem;
     }
     .education-card {
         width: 100%;
-        padding: 1.5rem;
-        margin-bottom: 1.5rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -158,8 +159,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    .education {
+        min-height: 100%;
+    }
+    .education-description {
+        padding: 0.5rem;
+    }
     .education-description > h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 }
 
