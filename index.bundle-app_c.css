@@ -775,7 +775,7 @@ img {
   align-items: center;
   justify-content: flex-start;
   min-height: 60vh;
-  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .skillsHeader {
@@ -798,9 +798,9 @@ img {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  margin-top: 2.5rem;
-  padding: 0 1.5rem;
-  gap: 2rem;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+  gap: 1rem;
 }
 
 .skillsSection {
@@ -815,7 +815,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .skillsSectionHeader h3 {
@@ -828,7 +828,23 @@ img {
 
 .skill--scroll {
   width: 100%;
-  margin: 0 2rem;
+  margin: 0 1rem;
+}
+
+.skill--static {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill--static-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  max-width: 100%;
 }
 
 .skill--box {
@@ -837,7 +853,7 @@ img {
   border-radius: 10px;
   width: 160px;
   height: 160px;
-  margin: 1.5rem;
+  margin: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -851,7 +867,7 @@ img {
 }
 
 .skill--box > img {
-  height: 50px;
+  height: 35px;
   pointer-events: none;
 }
 
@@ -874,17 +890,17 @@ img {
 }
 
 .marquee {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
   .skills {
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
   }
   .skillsContainer {
-    padding: 1.5rem;
-    margin-top: 1.5rem;
-    gap: 2rem;
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
+    gap: 1rem;
   }
   .skillsSectionHeader h3 {
     font-size: 2.2rem;
@@ -892,13 +908,13 @@ img {
 }
 @media screen and (max-width: 992px) {
   .skills {
-    padding: 0.15rem;
+    padding: 0.1rem;
     min-height: 100%;
   }
   .skillsContainer {
-    padding: 0.15rem;
-    margin: 0.15rem 0;
-    gap: 0.75rem;
+    padding: 0.1rem;
+    margin: 0.1rem 0;
+    gap: 0.5rem;
   }
   .skillsHeader h2 {
     font-size: 2.8rem;
@@ -910,11 +926,11 @@ img {
   .skill--box {
     width: 150px;
     height: 130px;
-    margin: 1.2rem;
+    margin: 0.6rem;
     padding: 1.5rem 1rem;
   }
   .skill--box > img {
-    height: 40px;
+    height: 28px;
   }
   .skill--box h4 {
     font-size: 18px;
@@ -923,11 +939,11 @@ img {
 }
 @media screen and (max-width: 800px) {
   .skills {
-    padding: 0.5rem;
+    padding: 0.3rem;
   }
   .skillsContainer {
-    padding: 0.5rem;
-    gap: 2rem;
+    padding: 0.3rem;
+    gap: 1rem;
   }
   .skillsHeader h2 {
     font-size: 3rem;
@@ -940,25 +956,31 @@ img {
     width: 100%;
     margin: 0;
   }
+  .skill--static-container {
+    gap: 0.2rem;
+  }
+  .skill--static-container {
+    gap: 0.3rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .skills {
-    padding: 0.25rem;
+    padding: 0.15rem;
     min-height: 100%;
   }
   .skillsContainer {
-    padding: 0.25rem;
-    margin: 0.25rem 0;
-    gap: 1rem;
+    padding: 0.15rem;
+    margin: 0.15rem 0;
+    gap: 0.5rem;
   }
   .skill--box {
     width: 120px;
     height: 100px;
-    margin: 0.8rem;
+    margin: 0.4rem;
     padding: 0.8rem 0.5rem;
   }
   .skill--box > img {
-    height: 30px;
+    height: 22px;
   }
   .skillsHeader h2 {
     font-size: 2.2rem;
