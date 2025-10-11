@@ -22,11 +22,16 @@ function About() {
                     <p style={{color:theme.tertiary80}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
                 </div>
                 <div className="about-img">
-                    <img 
-                        src={aboutData.image === 2 ? theme.aboutimg2 : theme.aboutimg1}  
-                        alt="" 
+                    <img
+                        src={aboutData.image === 2 ? theme.aboutimg2 : theme.aboutimg1}
+                        alt=""
                     />
                 </div>
+            </div>
+            <div className="line-styling">
+              <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+              <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+              <div className="style-line" style={{backgroundColor: theme.primary}}></div>
             </div>
         </div>
 

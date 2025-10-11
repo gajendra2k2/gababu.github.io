@@ -2,7 +2,7 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/components/Books/Books.css ***!
   \*************************************************************************************************************************/
 .books {
-  padding: 50px 0;
+  padding: 25px 0;
   position: relative;
 }
 
@@ -127,7 +127,7 @@
 }
 @media (max-width: 480px) {
   .books {
-    padding: 30px 0;
+    padding: 15px 0;
   }
   .books-body {
     margin: 0 3vw;

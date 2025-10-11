@@ -1,5 +1,5 @@
 .about {
-    min-height: 100vh;
+    min-height: 70vh;
     position: relative;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .about-description >h2 {
-    margin-bottom: 40px;
+    margin-bottom: 1.5rem;
     font-size: 3.5rem;
     font-family: var(--primaryFont);
 }

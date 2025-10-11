@@ -31,6 +31,11 @@ function Education() {
                     <img src={theme.eduimg} alt=""/>
                 </div>
             </div>
+            <div className="line-styling">
+              <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+              <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+              <div className="style-line" style={{backgroundColor: theme.primary}}></div>
+            </div>
         </div>
     )
 }

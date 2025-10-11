@@ -47,8 +47,22 @@ function Skills() {
     return (
         <div id="skills" className="skills" style={{backgroundColor: theme.secondary}}>
             <div className="skillsContainer">
-                {renderSkillSection(leadershipImpactSkills, "Leadership")}
-                {renderSkillSection(technologyLeadershipSkills, "Technology")}
+                <div className="skillsSectionWrapper">
+                    {renderSkillSection(leadershipImpactSkills, "Leadership")}
+                    <div className="line-styling">
+                      <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+                      <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+                      <div className="style-line" style={{backgroundColor: theme.primary}}></div>
+                    </div>
+                </div>
+                <div className="skillsSectionWrapper">
+                    {renderSkillSection(technologyLeadershipSkills, "Technology")}
+                    <div className="line-styling">
+                      <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+                      <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+                      <div className="style-line" style={{backgroundColor: theme.primary}}></div>
+                    </div>
+                </div>
             </div>
         </div>
     )

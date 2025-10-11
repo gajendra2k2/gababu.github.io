@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .skillsSectionHeader h3 {
@@ -222,4 +222,51 @@
 
 @media only screen and (device-width: 768px) {
 
+/* Divider styling */
+.skills .line-styling {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.skills .line-styling .style-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+}
+
+.skills .line-styling .style-line {
+  width: 95%;
+  height: 2px;
+}
+
+@media screen and (max-width: 992px) {
+  .skills .line-styling {
+    margin: 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills .line-styling .style-circle {
+    width: 8px;
+    height: 8px;
+  }
+  .skills .line-styling .style-line {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills .line-styling .style-circle {
+    width: 5px;
+    height: 5px;
+  }
+  .skills .line-styling .style-line {
+    width: 90%;
+  }
+}
 }
