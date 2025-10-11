@@ -21,16 +21,8 @@ function Skills() {
             <div className="skillsSectionHeader">
                 <h3 style={{color: theme.primary}}>{title}</h3>
             </div>
-            <div className="skill--scroll">
-                <Marquee
-                    gradient={false}
-                    speed={80}
-                    pauseOnHover={true}
-                    pauseOnClick={true}
-                    delay={0}
-                    play={true}
-                    direction="left"
-                >
+            <div className="skill--static">
+                <div className="skill--static-container">
                     {skills.map((skill, id) => (
                         <div className="skill--box" key={id} style={skillBoxStyle}>
                             <img src={skillsImage(skill)} alt={skill} />
@@ -39,7 +31,7 @@ function Skills() {
                             </h4>
                         </div>
                     ))}
-                </Marquee>
+                </div>
             </div>
         </div>
     );

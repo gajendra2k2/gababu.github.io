@@ -845,6 +845,9 @@ img {
   align-items: center;
   gap: 0.4rem;
   max-width: 100%;
+  /* Limit to approximately 3 lines on large screens */
+  max-height: 600px;
+  overflow: visible;
 }
 
 .skill--box {
@@ -952,15 +955,10 @@ img {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-  .skill--scroll {
-    width: 100%;
-    margin: 0;
-  }
-  .skill--static-container {
-    gap: 0.2rem;
-  }
   .skill--static-container {
     gap: 0.3rem;
+    /* Allow wrapping to 3 lines on medium screens */
+    max-height: 500px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -992,6 +990,25 @@ img {
   .skill--box h4 {
     font-size: 14px;
     margin-top: 0.5rem;
+  }
+  .skill--static-container {
+    gap: 0.2rem;
+    /* Allow wrapping to 3-4 lines on small screens */
+    max-height: 450px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .skill--static-container {
+    gap: 0.2rem;
+    /* Allow wrapping to 4 lines on very small screens */
+    max-height: 400px;
+  }
+}
+/* Large screen optimization - limit to 2 lines */
+@media screen and (min-width: 1400px) {
+  .skill--static-container {
+    /* Limit to approximately 2 lines on very large screens */
+    max-height: 400px;
   }
 }
 @media only screen and (device-width: 768px) {
