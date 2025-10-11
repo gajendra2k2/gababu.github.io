@@ -199,7 +199,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if (chunkId === "app_components_Books_Books_js") return "" + chunkId + ".d7696d0418c9d98edf27.chunk.js";
+/******/ 			if (chunkId === "app_components_Books_Books_js") return "" + chunkId + ".05d6759dec6595d6deea.chunk.js";
 /******/ 			// return url for filenames based on template
 /******/ 			return "" + chunkId + ".js";
 /******/ 		};
@@ -230,7 +230,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("c2ca01ce18e27516e284")
+/******/ 		__webpack_require__.h = () => ("893e15a4f2fcd36299ff")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
