@@ -20,9 +20,7 @@ export const technologyLeadershipSkills = [
   "Azure",
   "Data Governance",
   "Knowledge Graphs",
-  "Distributed Systems",
-  "Streaming Systems",
-  "Big Data Architecture"
+  "Distributed Systems"
 ];
 
 // Legacy export for backward compatibility

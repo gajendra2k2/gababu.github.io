@@ -46,7 +46,7 @@ import bookBlack from '../assets/svg/books/bookImgBlack.svg'
 import bookWhite from '../assets/svg/books/bookImgWhite.svg'
 
 import book1Front from '../assets/books/Book1-frontcover.jpg'
-import book2Front from '../assets/books/book2-frontcover.jpg.jpg'
+import book2Front from '../assets/books/book2-frontcover.jpg'
 
 export {
     blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy,
