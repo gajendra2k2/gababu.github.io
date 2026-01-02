@@ -30,6 +30,17 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 
 /***/ }),
 
+/***/ "./app/assets/png/Gajendra-Profile-Pic-3.png":
+/*!***************************************************!*\
+  !*** ./app/assets/png/Gajendra-Profile-Pic-3.png ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8500b779da8594c359a7edae27fb835a.png\");\n\n//# sourceURL=webpack://gajendra-portfolio/./app/assets/png/Gajendra-Profile-Pic-3.png?\n}");
+
+/***/ }),
+
 /***/ "./app/assets/png/placeholder.png":
 /*!****************************************!*\
   !*** ./app/assets/png/placeholder.png ***!
