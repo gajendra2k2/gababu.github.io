@@ -17,6 +17,9 @@ import {
      FaLinkedinIn,
      FaMediumM,
      FaAmazon,
+     FaHandshake,
+     FaUserFriends,
+     FaMicrophoneAlt,
  } from 'react-icons/fa';
 
 function Landing() {
@@ -211,6 +214,51 @@ function Landing() {
                                             className='amazon-link'
                                         >
                                             Amazon Author
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                            {socialsData.adpList && (
+                                <div className='landing-adplist-badge'>
+                                    <div className='custom-adplist-badge'>
+                                        <FaHandshake className='adplist-icon' />
+                                        <a
+                                            href={socialsData.adpList}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='adplist-link'
+                                        >
+                                            ADPList Mentoring
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                            {socialsData.topmate && (
+                                <div className='landing-topmate-badge'>
+                                    <div className='custom-topmate-badge'>
+                                        <FaUserFriends className='topmate-icon' />
+                                        <a
+                                            href={socialsData.topmate}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='topmate-link'
+                                        >
+                                            Topmate
+                                        </a>
+                                    </div>
+                                </div>
+                            )}
+                            {socialsData.sessionize && (
+                                <div className='landing-sessionize-badge'>
+                                    <div className='custom-sessionize-badge'>
+                                        <FaMicrophoneAlt className='sessionize-icon' />
+                                        <a
+                                            href={socialsData.sessionize}
+                                            target='_blank'
+                                            rel='noreferrer'
+                                            className='sessionize-link'
+                                        >
+                                            Sessionize
                                         </a>
                                     </div>
                                 </div>

@@ -1,10 +1,10 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Visvesvaraya Technological University',
-        course: 'Bachelor of Engineering - Computer Science',
-        startYear: '2003',
-        endYear: '2007'
+        institution: 'Wharton Executive Education',
+        course: 'Chief Technology Officer Program',
+        startYear: '2025',
+        endYear: '2026'
     },
     {
         id: 2,
@@ -12,5 +12,12 @@ export const educationData = [
         course: 'Artificial Intelligence & Machine Learning',
         startYear: '2025',
         endYear: '2026'
-    }
+    },
+    {
+        id: 3,
+        institution: 'Visvesvaraya Technological University',
+        course: 'Bachelor of Engineering - Computer Science and Engineering',
+        startYear: '2003',
+        endYear: '2007'
+    }    
 ]

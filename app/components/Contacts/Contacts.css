@@ -172,14 +172,22 @@
 }
 
 /* Custom LinkedIn Badge Styling */
-.linkedin-badge-container {
+.linkedin-badge-container,
+.medium-badge-container,
+.amazon-badge-container,
+.adplist-badge-container,
+.topmate-badge-container,
+.sessionize-badge-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0;
 }
 
-.custom-linkedin-badge {
+.custom-linkedin-badge,
+.custom-adplist-badge,
+.custom-topmate-badge,
+.custom-sessionize-badge {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -191,23 +199,35 @@
     transition: all 0.3s ease-in-out;
 }
 
-.custom-linkedin-badge:hover {
+.custom-linkedin-badge:hover,
+.custom-adplist-badge:hover,
+.custom-topmate-badge:hover,
+.custom-sessionize-badge:hover {
     background-color: var(--primary);
     border-color: var(--tertiary);
     transform: translateY(-2px);
 }
 
-.linkedin-icon {
+.linkedin-icon,
+.adplist-icon,
+.topmate-icon,
+.sessionize-icon {
     font-size: 20px;
     color: var(--primary);
     transition: color 0.3s ease-in-out;
 }
 
-.custom-linkedin-badge:hover .linkedin-icon {
+.custom-linkedin-badge:hover .linkedin-icon,
+.custom-adplist-badge:hover .adplist-icon,
+.custom-topmate-badge:hover .topmate-icon,
+.custom-sessionize-badge:hover .sessionize-icon {
     color: var(--secondary);
 }
 
-.linkedin-link {
+.linkedin-link,
+.adplist-link,
+.topmate-link,
+.sessionize-link {
     color: var(--primary) !important;
     text-decoration: none !important;
     font-weight: 500 !important;
@@ -215,66 +235,15 @@
     transition: color 0.3s ease-in-out;
 }
 
-.custom-linkedin-badge:hover .linkedin-link {
+.custom-linkedin-badge:hover .linkedin-link,
+.custom-adplist-badge:hover .adplist-link,
+.custom-topmate-badge:hover .topmate-link,
+.custom-sessionize-badge:hover .sessionize-link {
     color: var(--secondary) !important;
 }
 
 /* Custom Medium Badge Styling */
-.medium-badge-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0;
-}
-
-.custom-medium-badge {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: var(--secondary);
-    border: 1px solid var(--primary80);
-    border-radius: 20px;
-    font-family: var(--primaryFont);
-    transition: all 0.3s ease-in-out;
-}
-
-.custom-medium-badge:hover {
-    background-color: var(--primary);
-    border-color: var(--tertiary);
-    transform: translateY(-2px);
-}
-
-.medium-icon {
-    font-size: 20px;
-    color: var(--primary);
-    transition: color 0.3s ease-in-out;
-}
-
-.custom-medium-badge:hover .medium-icon {
-    color: var(--secondary);
-}
-
-.medium-link {
-    color: var(--primary) !important;
-    text-decoration: none !important;
-    font-weight: 500 !important;
-    font-size: 0.9rem;
-    transition: color 0.3s ease-in-out;
-}
-
-.custom-medium-badge:hover .medium-link {
-    color: var(--secondary) !important;
-}
-
-/* Custom Amazon Author Badge Styling */
-.amazon-badge-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0;
-}
-
+.custom-medium-badge,
 .custom-amazon-badge {
     display: flex;
     align-items: center;
@@ -287,22 +256,26 @@
     transition: all 0.3s ease-in-out;
 }
 
+.custom-medium-badge:hover,
 .custom-amazon-badge:hover {
     background-color: var(--primary);
     border-color: var(--tertiary);
     transform: translateY(-2px);
 }
 
+.medium-icon,
 .amazon-icon {
     font-size: 20px;
     color: var(--primary);
     transition: color 0.3s ease-in-out;
 }
 
+.custom-medium-badge:hover .medium-icon,
 .custom-amazon-badge:hover .amazon-icon {
     color: var(--secondary);
 }
 
+.medium-link,
 .amazon-link {
     color: var(--primary) !important;
     text-decoration: none !important;
@@ -311,6 +284,7 @@
     transition: color 0.3s ease-in-out;
 }
 
+.custom-medium-badge:hover .medium-link,
 .custom-amazon-badge:hover .amazon-link {
     color: var(--secondary) !important;
 }

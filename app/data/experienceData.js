@@ -17,13 +17,13 @@ export const experienceData = [
     {
         id: 2,
         company: 'Microsoft',
-        jobtitle: 'Senior Software Engineer / Technical Lead',
+        jobtitle: 'Senior Engineering Leader / Technical Lead',
         startYear: '2011',
         endYear: '2022',
         resps: [
             "Architected and delivered Microsoft Purview’s core features (data scanning, lineage, insights) empowering Fortune 500 clients to govern and protect multi-cloud and SaaS data at scale.",
             "Drove GDPR/CCPA compliance solutions, saving Microsoft millions in regulatory risk and compliance costs.",
-            "Led development of cost-optimized data platforms, including projects that reduced Azure egress costs by $2.4M and cut infrastructure expenses by 89% through serverless adoption."
+            "Led development of cost-optimized data platforms, including projects that reduced Azure egress costs by $7.2M and cut infrastructure expenses by 89% through serverless adoption."
         ],
         code: '',
         demo: '',

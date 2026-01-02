@@ -114,35 +114,47 @@
     align-items: center;
   }
 
-  .landing-linkedin-badge,
-  .landing-medium-badge,
-  .landing-amazon-badge {
+.landing-linkedin-badge,
+.landing-medium-badge,
+.landing-amazon-badge,
+.landing-adplist-badge,
+.landing-topmate-badge,
+.landing-sessionize-badge {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  /* Reuse the same badge styles from Contacts.css for consistency */
-  .landing-linkedin-badge .custom-linkedin-badge,
-  .landing-medium-badge .custom-medium-badge,
-  .landing-amazon-badge .custom-amazon-badge {
+/* Reuse the same badge styles from Contacts.css for consistency */
+.landing-linkedin-badge .custom-linkedin-badge,
+.landing-medium-badge .custom-medium-badge,
+.landing-amazon-badge .custom-amazon-badge,
+.landing-adplist-badge .custom-adplist-badge,
+.landing-topmate-badge .custom-topmate-badge,
+.landing-sessionize-badge .custom-sessionize-badge {
     padding: 0.4rem 0.8rem;
     font-size: 0.85rem;
     border-radius: 16px;
-  }
+}
 
-  .landing-linkedin-badge .linkedin-icon,
-  .landing-medium-badge .medium-icon,
-  .landing-amazon-badge .amazon-icon {
+.landing-linkedin-badge .linkedin-icon,
+.landing-medium-badge .medium-icon,
+.landing-amazon-badge .amazon-icon,
+.landing-adplist-badge .adplist-icon,
+.landing-topmate-badge .topmate-icon,
+.landing-sessionize-badge .sessionize-icon {
     font-size: 16px;
-  }
+}
 
-  .landing-linkedin-badge .linkedin-link,
-  .landing-medium-badge .medium-link,
-  .landing-amazon-badge .amazon-link {
+.landing-linkedin-badge .linkedin-link,
+.landing-medium-badge .medium-link,
+.landing-amazon-badge .amazon-link,
+.landing-adplist-badge .adplist-link,
+.landing-topmate-badge .topmate-link,
+.landing-sessionize-badge .sessionize-link {
     font-size: 0.8rem;
     font-weight: 500;
-  }
+}
   
   @media (max-width: 1100px) {
     .landing--img {
@@ -182,20 +194,29 @@
 
     .landing-linkedin-badge .custom-linkedin-badge,
     .landing-medium-badge .custom-medium-badge,
-    .landing-amazon-badge .custom-amazon-badge {
+    .landing-amazon-badge .custom-amazon-badge,
+    .landing-adplist-badge .custom-adplist-badge,
+    .landing-topmate-badge .custom-topmate-badge,
+    .landing-sessionize-badge .custom-sessionize-badge {
       padding: 0.3rem 0.6rem;
       font-size: 0.75rem;
     }
 
     .landing-linkedin-badge .linkedin-icon,
     .landing-medium-badge .medium-icon,
-    .landing-amazon-badge .amazon-icon {
+    .landing-amazon-badge .amazon-icon,
+    .landing-adplist-badge .adplist-icon,
+    .landing-topmate-badge .topmate-icon,
+    .landing-sessionize-badge .sessionize-icon {
       font-size: 14px;
     }
 
     .landing-linkedin-badge .linkedin-link,
     .landing-medium-badge .medium-link,
-    .landing-amazon-badge .amazon-link {
+    .landing-amazon-badge .amazon-link,
+    .landing-adplist-badge .adplist-link,
+    .landing-topmate-badge .topmate-link,
+    .landing-sessionize-badge .sessionize-link {
       font-size: 0.75rem;
     }
   }
@@ -300,20 +321,29 @@
 
     .landing-linkedin-badge .custom-linkedin-badge,
     .landing-medium-badge .custom-medium-badge,
-    .landing-amazon-badge .custom-amazon-badge {
+    .landing-amazon-badge .custom-amazon-badge,
+    .landing-adplist-badge .custom-adplist-badge,
+    .landing-topmate-badge .custom-topmate-badge,
+    .landing-sessionize-badge .custom-sessionize-badge {
       padding: 0.25rem 0.5rem;
       font-size: 0.7rem;
     }
 
     .landing-linkedin-badge .linkedin-icon,
     .landing-medium-badge .medium-icon,
-    .landing-amazon-badge .amazon-icon {
+    .landing-amazon-badge .amazon-icon,
+    .landing-adplist-badge .adplist-icon,
+    .landing-topmate-badge .topmate-icon,
+    .landing-sessionize-badge .sessionize-icon {
       font-size: 12px;
     }
 
     .landing-linkedin-badge .linkedin-link,
     .landing-medium-badge .medium-link,
-    .landing-amazon-badge .amazon-link {
+    .landing-amazon-badge .amazon-link,
+    .landing-adplist-badge .adplist-link,
+    .landing-topmate-badge .topmate-link,
+    .landing-sessionize-badge .sessionize-link {
       font-size: 0.7rem;
     }
   }
